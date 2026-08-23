@@ -457,9 +457,33 @@ body {
         font-size: 0.8rem;
         padding: 6px 12px;
     }
+
+    .ascii-art {
+        margin: 4px 0 14px;
+    }
+    .ascii-art pre {
+        font-size: 0.5rem !important;
+        padding: 6px 4px !important;
+        line-height: 1.2 !important;
+        letter-spacing: -0.5px;
+        border-radius: 10px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    .ascii-top {
+        font-size: 7px;
+        gap: 4px;
+    }
+    .ascii-top span {
+        padding: 0 8px;
+        font-size: 6px;
+    }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 380px) {
     .pipboy {
         padding: 12px 10px 20px;
         border-radius: 20px;
