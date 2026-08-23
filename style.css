@@ -459,6 +459,138 @@ body {
     }
 }
 
+@media (max-width: 400px) {
+    .pipboy {
+        padding: 12px 10px 20px;
+        border-radius: 20px;
+    }
+    .header-wrapper {
+        margin: -12px -10px 0 -10px;
+        padding: 14px 12px 10px 12px;
+        border-radius: 20px 20px 0 0;
+    }
+    .header {
+        padding-left: 14px;
+        border-left-width: 4px;
+    }
+    .logo h1 {
+        font-size: 2rem;
+    }
+    .logo .tagline {
+        font-size: 0.7rem;
+    }
+    .social-btn {
+        font-size: 0.65rem;
+        padding: 5px 10px;
+        gap: 4px;
+    }
+    .ascii-art {
+        margin: 4px 0 14px;
+    }
+    .ascii-art pre {
+        font-size: 0.38rem !important;
+        padding: 6px 4px !important;
+        line-height: 1.2 !important;
+        letter-spacing: -0.5px;
+        border-radius: 10px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    .ascii-top {
+        font-size: 7px;
+        gap: 4px;
+    }
+    .ascii-top span {
+        padding: 0 8px;
+        font-size: 6px;
+    }
+    .style-description {
+        padding: 12px 14px;
+        margin: 8px 0 16px;
+    }
+    .style-label {
+        font-size: 0.55rem;
+    }
+    .style-value {
+        font-size: 0.75rem;
+    }
+    .section-title {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+        margin: 16px 0 12px;
+        gap: 8px;
+    }
+    .title-main {
+        font-size: 1.2rem;
+    }
+    .title-sub {
+        font-size: 0.6rem;
+        padding: 1px 12px;
+    }
+    .grid-works {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .work-card {
+        border-radius: 16px;
+    }
+    .img-placeholder {
+        height: 100px;
+    }
+    .work-info {
+        padding: 10px 10px 14px;
+        gap: 2px;
+    }
+    .work-info h3 {
+        font-size: 0.85rem;
+    }
+    .work-info p {
+        font-size: 0.6rem;
+    }
+    .work-tag {
+        font-size: 0.5rem;
+        padding: 2px 10px;
+        margin-top: 4px;
+    }
+    .about-block {
+        padding: 16px 14px 14px;
+        margin: 8px 0 16px;
+        border-left-width: 4px;
+        border-radius: 14px;
+    }
+    .about-text h2 {
+        font-size: 1.2rem;
+        margin-bottom: 14px;
+    }
+    .about-meta {
+        padding-top: 14px;
+        gap: 12px;
+    }
+    .about-sub {
+        font-size: 0.75rem;
+    }
+    .about-description p {
+        font-size: 0.65rem;
+        line-height: 1.4;
+    }
+    .footer-console {
+        margin-top: 24px;
+        padding-top: 12px;
+        font-size: 0.6rem;
+        gap: 6px;
+    }
+    .footer-console .status span {
+        padding: 3px 12px;
+        font-size: 0.6rem;
+    }
+    .footer-ascii {
+        font-size: 0.5rem;
+        margin-top: 6px;
+    }
+}
 
 ::-webkit-scrollbar {
     width: 8px;
